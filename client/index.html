@@ -3,6 +3,20 @@
 <h1>{{welcome}}</h1>
 </template>
 
+<template name="Done">
+<div class="twelve columns">
+  {{> Items}}
+</div>
+</template>
+
+<template name="Items">
+<ul>
+  {{#each items}}
+  <li>{{brief}}</li>
+  {{/each}}
+</ul>
+</template>
+
 <template name="NotFound">
 <h1>Not found</h1>
 </template>

@@ -11,3 +11,4 @@ coffeescript
 iron:router
 mquandalle:bower
 reactive-var
+anti:fake

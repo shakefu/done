@@ -7,3 +7,7 @@ Template.Index.created = ->
 
 Template.Index.helpers
   welcome: -> Template.instance().welcome.get()
+
+Template.Done.helpers
+  items: -> Items.find()
+
