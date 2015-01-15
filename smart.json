@@ -1,0 +1,12 @@
+{
+  "packages": {
+    "bower": {}
+  },
+  "bower": {
+    "modernizr": {
+      "version": "~2.8.3",
+      "additionalFiles": ["modernizr.js"]
+    },
+    "gumby": "~2.6.3"
+  }
+}

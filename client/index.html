@@ -1,0 +1,21 @@
+<template name="Index">
+{{pageTitle "Meteor Flare"}}
+<h1>{{welcome}}</h1>
+</template>
+
+<template name="NotFound">
+<h1>Not found</h1>
+</template>
+
+<template name="Loading">
+<h1>Loading</h1>
+</template>
+
+<template name="Layout">
+<div class="row">
+  <div class="centered twelve columns">
+    {{> yield}}
+  </div>
+</div>
+</template>
+
